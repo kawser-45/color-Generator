@@ -1,0 +1,46 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+h3 {
+    font-size:45px;
+
+}
+button{
+    font-size:24px;
+    padding: 20px 30px;
+    maegin: 10px;
+}
+
+button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed
+}
+
+
+
+.container #colorBox{
+    margin-right:20px
+        width: 200px;
+        height: 200px;
+        border: none;
+}
+
+#colorCode{
+    font-size: 24px;
+    font-weight: 500;
+}
+    
+#copyButton {
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+#copyButton:hover{
+    background-color: rgba(1, 93, 1, 0.76);
+}
